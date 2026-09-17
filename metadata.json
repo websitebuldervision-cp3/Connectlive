@@ -1,0 +1,6 @@
+{
+  "name": "GIX CHAT",
+  "description": "Official mobile landing page for GIX CHAT platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
