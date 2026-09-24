@@ -9,7 +9,7 @@ import { MessageCircle, Users, ArrowUpRight } from 'lucide-react';
 const CUSTOMER_CARE_LINK =
   'https://wa.me/255624542565?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
 const WHATSAPP_GROUP_LINK =
-  'https://chat.whatsapp.com/BwEP14qUhlp8RYi3aJEj8d?s=cl&p=a&mlu=4&ilr=4';
+  'https://chat.whatsapp.com/BhtxJeAGXRGCG9VdnxmL4y';
 
 export default function App() {
   return (
