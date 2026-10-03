@@ -4,12 +4,11 @@
  */
 
 import React from 'react';
-import { MessageCircle, Users, ArrowUpRight } from 'lucide-react';
+import { MessageCircle, Globe, ArrowUpRight } from 'lucide-react';
 
 const CUSTOMER_CARE_LINK =
   'https://wa.me/255624542565?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
-const WHATSAPP_GROUP_LINK =
-  'https://chat.whatsapp.com/BhtxJeAGXRGCG9VdnxmL4y';
+const GIX_CHAT_SITE_LINK = 'https://gixchat.vercel.app';
 
 export default function App() {
   return (
@@ -85,19 +84,21 @@ export default function App() {
             <ArrowUpRight className="w-5 h-5 shrink-0 text-white/90 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
 
-          {/* Button 2: Blue Gradient -> WhatsApp Group */}
+          {/* Button 2: Blue Gradient -> Direct Chat Site */}
           <a
-            id="whatsapp-group-cta-button"
-            href={WHATSAPP_GROUP_LINK}
+            id="direct-chat-site-cta-button"
+            href={GIX_CHAT_SITE_LINK}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-between gap-3 p-4 sm:p-[18px_16px] rounded-[16px] text-white font-extrabold text-[13px] sm:text-[14px] leading-snug bg-gradient-to-r from-[#06b6d4] to-[#3b82f6] shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 no-underline"
           >
             <div className="flex items-center gap-3 text-left">
               <div className="w-[38px] h-[38px] shrink-0 bg-white/25 backdrop-blur-xs rounded-[10px] flex items-center justify-center text-[20px] transition-transform group-hover:scale-105">
-                <Users className="w-5 h-5 text-white" />
+                <Globe className="w-5 h-5 text-white" />
               </div>
-              <span className="pr-1">Gusa hapa kujiunga na group</span>
+              <span className="pr-1">
+                Gusa hapa kuingia kwenye site ya kuchat direct anza kuchat
+              </span>
             </div>
             <ArrowUpRight className="w-5 h-5 shrink-0 text-white/90 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
