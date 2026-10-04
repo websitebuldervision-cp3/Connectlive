@@ -7,7 +7,7 @@ import React from 'react';
 import { MessageCircle, Globe, ArrowUpRight } from 'lucide-react';
 
 const CUSTOMER_CARE_LINK =
-  'https://wa.me/255624542565?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
+  'https://wa.me/255766467508?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
 const GIX_CHAT_SITE_LINK = 'https://gixchat.vercel.app';
 
 export default function App() {
