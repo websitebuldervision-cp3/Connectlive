@@ -4,11 +4,14 @@
  */
 
 import React from 'react';
-import { MessageCircle, Globe, ArrowUpRight } from 'lucide-react';
+import { Users, Megaphone, ArrowUpRight } from 'lucide-react';
 
 const CUSTOMER_CARE_LINK =
   'https://wa.me/255766467508?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
-const GIX_CHAT_SITE_LINK = 'https://gixchat.vercel.app';
+const WHATSAPP_GROUP_LINK =
+  'https://chat.whatsapp.com/JLttU5Kp5D54fmep3N6cnY';
+const WHATSAPP_CHANNEL_LINK =
+  'https://whatsapp.com/channel/0029VbD5AyTLI8YRnRntMc2S';
 
 export default function App() {
   return (
@@ -51,7 +54,7 @@ export default function App() {
           id="main-heading"
           className="text-[#9a109d] text-[24px] sm:text-[27px] font-black leading-[1.25] my-2.5 tracking-tight"
         >
-          kufanya kazi za AI na kulipwa hadi{' '}
+          kuchat na wazungu na kulipwa hadi{' '}
           <span className="text-[#0ea5e9]">50,000</span> kwa siku
         </h1>
 
@@ -65,39 +68,39 @@ export default function App() {
 
         {/* Two Action Buttons Only */}
         <div className="space-y-3.5 mt-4 mb-2">
-          {/* Button 1: Purple Gradient -> Customer Care */}
+          {/* Button 1: Purple Gradient -> WhatsApp Group */}
           <a
-            id="customer-care-cta-button"
-            href={CUSTOMER_CARE_LINK}
+            id="whatsapp-group-cta-button"
+            href={WHATSAPP_GROUP_LINK}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-between gap-3 p-4 sm:p-[18px_16px] rounded-[16px] text-white font-extrabold text-[13px] sm:text-[14px] leading-snug bg-gradient-to-r from-[#a855f7] to-[#e93df1] shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 no-underline"
           >
             <div className="flex items-center gap-3 text-left">
               <div className="w-[38px] h-[38px] shrink-0 bg-white/25 backdrop-blur-xs rounded-[10px] flex items-center justify-center text-[20px] transition-transform group-hover:scale-105">
-                <MessageCircle className="w-5 h-5 text-white" />
+                <Users className="w-5 h-5 text-white" />
               </div>
               <span className="pr-1">
-                Gusa hapa kuwasiliana na customer care kwa muongozo sahihi
+                Gusa hapa kujiunga na group kwa muongozo wa jins ya kuchat
               </span>
             </div>
             <ArrowUpRight className="w-5 h-5 shrink-0 text-white/90 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
 
-          {/* Button 2: Blue Gradient -> Direct Chat Site */}
+          {/* Button 2: Blue Gradient -> WhatsApp Channel */}
           <a
-            id="direct-chat-site-cta-button"
-            href={GIX_CHAT_SITE_LINK}
+            id="whatsapp-channel-cta-button"
+            href={WHATSAPP_CHANNEL_LINK}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center justify-between gap-3 p-4 sm:p-[18px_16px] rounded-[16px] text-white font-extrabold text-[13px] sm:text-[14px] leading-snug bg-gradient-to-r from-[#06b6d4] to-[#3b82f6] shadow-md hover:shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 no-underline"
           >
             <div className="flex items-center gap-3 text-left">
               <div className="w-[38px] h-[38px] shrink-0 bg-white/25 backdrop-blur-xs rounded-[10px] flex items-center justify-center text-[20px] transition-transform group-hover:scale-105">
-                <Globe className="w-5 h-5 text-white" />
+                <Megaphone className="w-5 h-5 text-white" />
               </div>
               <span className="pr-1">
-                Gusa hapa kuingia kwenye site ya kuchat direct anza kuchat
+                Gusa hapa kujiunga na chanel kwa muongozo Zaid
               </span>
             </div>
             <ArrowUpRight className="w-5 h-5 shrink-0 text-white/90 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
