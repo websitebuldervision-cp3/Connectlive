@@ -7,7 +7,7 @@ import React from 'react';
 import { Users, Megaphone, ArrowUpRight } from 'lucide-react';
 
 const CUSTOMER_CARE_LINK =
-  'https://wa.me/255766467508?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
+  'https://wa.me/255695365088?text=hellow%20customer%20CARE%20Naomba%20nielekeze%20khs%20GIX%20CHAT';
 const WHATSAPP_GROUP_LINK =
   'https://chat.whatsapp.com/JLttU5Kp5D54fmep3N6cnY';
 const WHATSAPP_CHANNEL_LINK =
