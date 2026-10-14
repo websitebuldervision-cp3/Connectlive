@@ -52,10 +52,9 @@ export default function App() {
         {/* Main Swahili Heading */}
         <h1
           id="main-heading"
-          className="text-[#9a109d] text-[24px] sm:text-[27px] font-black leading-[1.25] my-2.5 tracking-tight"
+          className="text-[#9a109d] text-[26px] sm:text-[30px] font-black leading-[1.25] my-3 tracking-tight"
         >
-          kuchat na wazungu na kulipwa hadi{' '}
-          <span className="text-[#0ea5e9]">50,000</span> kwa siku
+          Kuchat na <span className="text-[#0ea5e9]">Wazungu</span>
         </h1>
 
         {/* Subtext */}
